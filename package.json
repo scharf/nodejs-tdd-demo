@@ -1,0 +1,33 @@
+{
+  "name": "nodejs-tdd-demo",
+  "version": "1.0.0",
+  "description": "This code was produced during a live coding session at the [Node.js Meetup Mannheim](http://www.meetup.com/node-js-Mannheim/events/220111131/).",
+  "main": "database.js",
+  "private": true,
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mirkokiefer/nodejs-tdd-demo.git"
+  },
+  "keywords": [],
+  "author": "Mirko Kiefer <mail@mirkokiefer.com> (http://www.mirkokiefer.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mirkokiefer/nodejs-tdd-demo/issues"
+  },
+  "homepage": "https://github.com/mirkokiefer/nodejs-tdd-demo",
+  "devDependencies": {
+    "mocha": "^2.1.0",
+    "nock": "^0.59.1",
+    "superagent": "^0.21.0"
+  },
+  "dependencies": {
+    "restify": "^2.8.5"
+  }
+}
